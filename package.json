@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "map": "^1.0.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "uuid": "^8.3.2",
+    "v4": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",
