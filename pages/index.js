@@ -16,12 +16,9 @@ export default function Home() {
 
     console.log("Çalıştı", result);
 
-    const index = array.indexOf(result);
-    if (index > -1) {
-      array.splice(index, 1);
-    }
+    todos.pop(result);
 
-    console.log(index, "asdasd");
+    console.log("asdasd");
 
     // javascript find metoduna bak. ne işe yarar. diziden eleman nasıl silinir bak.
   };
